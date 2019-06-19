@@ -397,7 +397,7 @@ a{
 
 a:visited, a:before{
     text-decoration: none;    
-    color: #333333;
+    /* color: #333333; */
 }
 
 a::after {
