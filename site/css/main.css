@@ -99,12 +99,12 @@ ul,ol,li{list-style-type:none}
     overflow:hidden;
     position:relative;
     width:100%;
-    height:100vh;
+    height:90vh;
     /* margin: 5% 0 0 10%; */
 }
 
 .gallery .view{overflow:hidden;position:relative;width:78%;height:80vh;
-    margin: 1.5% 0 0 11%;
+    margin: 1.5% 0 0 11%;   
 
 }
 
@@ -122,7 +122,8 @@ ul,ol,li{list-style-type:none}
 
 .list{width:1125px;margin-right:auto;margin-left:auto}
 
-.list li{display:inline-block;
+.list li{
+    display:inline-block;
     width:15%;
     margin: 0 4.5% 0 0;
     padding-right:25px;
@@ -181,19 +182,15 @@ ul,ol,li{list-style-type:none}
     position:absolute;
     top:42%;left:155%;
     width:50px;height:50px;
-    /* 1. */
-    /* margin-top:-20px;margin-left:-20px; */
     padding:0;
     background-color:rgba(255,255,255,0.5);
     border:0px solid #000;
     border-radius:50%;
     text-indent:-9999px;
     box-sizing:border-box;
-    /* 2. */
     transform:translateX(-50%) translateY(-50%);
     cursor:pointer;
     transition:background-color 200ms ease-in-out;
-    /* display: block; */
     opacity: 0;
 
 }
