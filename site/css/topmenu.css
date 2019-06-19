@@ -369,6 +369,15 @@ textarea {
 
 /* 리셋, 시작  */
 /* 탑 로고메뉴 */
+
+.menubar_list li{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+    padding :  0 0 0 10%;
+}
+
 .topmenu_banner{
     margin: 2% 0 0 11%;
     float: left;
@@ -386,7 +395,7 @@ a{
     text-decoration: none;
 }
 
-a:visited{
+a:visited, a:before{
     text-decoration: none;    
     color: #333333;
 }
@@ -430,14 +439,6 @@ a::after {
 
 .menubar_list{
     width:500px;
-}
-
-.menubar_list li{
-    display: inline;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    /* font-weight: bold; */
-    padding :  0 0 0 10%;
 }
 
 .menubar_list li a{
